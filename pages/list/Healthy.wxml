@@ -1,0 +1,14 @@
+<scroll-view scroll-y="true" class="list" bindscrolltolower="handleLoadMore">
+  <view class="lll"  wx:for="{{eatlist}}" wx:for-item="item" bindtap="bindViewTap" data-title="{{item.title}}" bindtap="tapName" id="{{item.id}}">
+	  <image style=" width: 80rpx;height: 80rpx;margin: 20rpx;" src="http://tnfs.tngou.net/image{{item.img}}" mode="aspectFill"></image>
+    <view  class="eee" > 
+       <view style="margin:10rpx;font-size:30rpx"> 
+          <text>{{item.title}}</text>
+          <block wx:for="{{imgUrls}}">
+              <image src="{{item}}" class="slide-image" width="355" height="150" mode="aspectFill"/>
+          </block>
+        </view>
+       <!--<view style="margin:5rpx;font-size:6rpx"> {{item.keywords}}</view>-->
+    </view>
+  </view>
+</scroll-view>
