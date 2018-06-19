@@ -10,10 +10,10 @@ Page({
       { title: '猫咪饮食小贴士' }
     ],
     imgUrls: [
-      '../../images/miao1.jpg',
-      '../../images/miao2.jpg',
-      '../../images/miao3.jpg',
-      '../../images/miao4.jpg'
+      '../../images/miao5.jpg',
+      '../../images/miao6.jpg',
+      '../../images/miao7.jpg',
+      '../../images/miao8.jpg'
       // 'http://zxpic.gtimg.com/infonew/0/wechat_pics_-214279.jpg/168',
       // 'http://zxpic.gtimg.com/infonew/0/wechat_pics_-214521.jpg/168'
     ]

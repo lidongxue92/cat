@@ -5,7 +5,7 @@
        <view style="margin:10rpx;font-size:30rpx"> 
           <text>{{item.title}}</text>
           <block wx:for="{{imgUrls}}">
-              <image src="{{item}}" class="slide-image" width="355" height="150" mode="aspectFill"/>
+              <image src="{{item}}" class="slide-image" width="355" height="100%" mode="aspectFill"/>
           </block>
         </view>
        <!--<view style="margin:5rpx;font-size:6rpx"> {{item.keywords}}</view>-->

@@ -13,3 +13,6 @@
   align-items: flex-start;
   height: 100%;
 } 
+.slide-image{
+  height: 400px;
+}

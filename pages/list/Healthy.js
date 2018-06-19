@@ -9,10 +9,10 @@ Page({
       { title: '猫咪健康小贴士' }
     ],
     imgUrls: [
-      '../../images/miao1.jpg',
-      '../../images/miao2.jpg',
-      '../../images/miao3.jpg',
-      '../../images/miao4.jpg'
+      '../../images/miao9.jpg',
+      '../../images/miao10.jpg',
+      '../../images/miao11.jpg',
+      '../../images/miao12.jpg'
       // 'http://zxpic.gtimg.com/infonew/0/wechat_pics_-214279.jpg/168',
       // 'http://zxpic.gtimg.com/infonew/0/wechat_pics_-214521.jpg/168'
     ]
